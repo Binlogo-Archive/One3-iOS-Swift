@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6430487B1E14B9CD0065F6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430487A1E14B9CD0065F6F4 /* AppDelegate.swift */; };
+		6430487D1E14B9CD0065F6F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430487C1E14B9CD0065F6F4 /* ViewController.swift */; };
+		643048801E14B9CD0065F6F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6430487E1E14B9CD0065F6F4 /* Main.storyboard */; };
+		643048821E14B9CD0065F6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643048811E14B9CD0065F6F4 /* Assets.xcassets */; };
+		643048851E14B9CD0065F6F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643048831E14B9CD0065F6F4 /* LaunchScreen.storyboard */; };
+		643048901E14B9CD0065F6F4 /* One3_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430488F1E14B9CD0065F6F4 /* One3_iOSTests.swift */; };
+		6430489B1E14B9CD0065F6F4 /* One3_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430489A1E14B9CD0065F6F4 /* One3_iOSUITests.swift */; };
+		94687281B2363A8FD056A9DE /* Pods_One3_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5985DF127C37150C94E147FC /* Pods_One3_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6430488C1E14B9CD0065F6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6430486F1E14B9CD0065F6F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 643048761E14B9CD0065F6F4;
+			remoteInfo = "One3-iOS";
+		};
+		643048971E14B9CD0065F6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6430486F1E14B9CD0065F6F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 643048761E14B9CD0065F6F4;
+			remoteInfo = "One3-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		523D0D5717677BF61E2E6542 /* Pods-One3-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-One3-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-One3-iOS/Pods-One3-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		588B25A69F4535383312CF72 /* Pods-One3-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-One3-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-One3-iOS/Pods-One3-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5985DF127C37150C94E147FC /* Pods_One3_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_One3_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		643048771E14B9CD0065F6F4 /* One3-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One3-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6430487A1E14B9CD0065F6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6430487C1E14B9CD0065F6F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6430487F1E14B9CD0065F6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		643048811E14B9CD0065F6F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		643048841E14B9CD0065F6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		643048861E14B9CD0065F6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6430488B1E14B9CD0065F6F4 /* One3-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "One3-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6430488F1E14B9CD0065F6F4 /* One3_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One3_iOSTests.swift; sourceTree = "<group>"; };
+		643048911E14B9CD0065F6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		643048961E14B9CD0065F6F4 /* One3-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "One3-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6430489A1E14B9CD0065F6F4 /* One3_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = One3_iOSUITests.swift; sourceTree = "<group>"; };
+		6430489C1E14B9CD0065F6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		643048741E14B9CD0065F6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94687281B2363A8FD056A9DE /* Pods_One3_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643048881E14B9CD0065F6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643048931E14B9CD0065F6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54E2570CCA71592B1CC59983 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5985DF127C37150C94E147FC /* Pods_One3_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6430486E1E14B9CD0065F6F4 = {
+			isa = PBXGroup;
+			children = (
+				643048791E14B9CD0065F6F4 /* One3-iOS */,
+				6430488E1E14B9CD0065F6F4 /* One3-iOSTests */,
+				643048991E14B9CD0065F6F4 /* One3-iOSUITests */,
+				643048781E14B9CD0065F6F4 /* Products */,
+				A09EA38E06F1F0EFE05EF9CA /* Pods */,
+				54E2570CCA71592B1CC59983 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		643048781E14B9CD0065F6F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				643048771E14B9CD0065F6F4 /* One3-iOS.app */,
+				6430488B1E14B9CD0065F6F4 /* One3-iOSTests.xctest */,
+				643048961E14B9CD0065F6F4 /* One3-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		643048791E14B9CD0065F6F4 /* One3-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6430487A1E14B9CD0065F6F4 /* AppDelegate.swift */,
+				6430487C1E14B9CD0065F6F4 /* ViewController.swift */,
+				6430487E1E14B9CD0065F6F4 /* Main.storyboard */,
+				643048811E14B9CD0065F6F4 /* Assets.xcassets */,
+				643048831E14B9CD0065F6F4 /* LaunchScreen.storyboard */,
+				643048861E14B9CD0065F6F4 /* Info.plist */,
+			);
+			path = "One3-iOS";
+			sourceTree = "<group>";
+		};
+		6430488E1E14B9CD0065F6F4 /* One3-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6430488F1E14B9CD0065F6F4 /* One3_iOSTests.swift */,
+				643048911E14B9CD0065F6F4 /* Info.plist */,
+			);
+			path = "One3-iOSTests";
+			sourceTree = "<group>";
+		};
+		643048991E14B9CD0065F6F4 /* One3-iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6430489A1E14B9CD0065F6F4 /* One3_iOSUITests.swift */,
+				6430489C1E14B9CD0065F6F4 /* Info.plist */,
+			);
+			path = "One3-iOSUITests";
+			sourceTree = "<group>";
+		};
+		A09EA38E06F1F0EFE05EF9CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				588B25A69F4535383312CF72 /* Pods-One3-iOS.debug.xcconfig */,
+				523D0D5717677BF61E2E6542 /* Pods-One3-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		643048761E14B9CD0065F6F4 /* One3-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6430489F1E14B9CD0065F6F4 /* Build configuration list for PBXNativeTarget "One3-iOS" */;
+			buildPhases = (
+				DB829866EBF5072D94E6EBAC /* [CP] Check Pods Manifest.lock */,
+				643048731E14B9CD0065F6F4 /* Sources */,
+				643048741E14B9CD0065F6F4 /* Frameworks */,
+				643048751E14B9CD0065F6F4 /* Resources */,
+				CF6556132002D014A1FF0F60 /* [CP] Embed Pods Frameworks */,
+				A1BB3AF44842CEC7B72007AD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "One3-iOS";
+			productName = "One3-iOS";
+			productReference = 643048771E14B9CD0065F6F4 /* One3-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6430488A1E14B9CD0065F6F4 /* One3-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643048A21E14B9CD0065F6F4 /* Build configuration list for PBXNativeTarget "One3-iOSTests" */;
+			buildPhases = (
+				643048871E14B9CD0065F6F4 /* Sources */,
+				643048881E14B9CD0065F6F4 /* Frameworks */,
+				643048891E14B9CD0065F6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6430488D1E14B9CD0065F6F4 /* PBXTargetDependency */,
+			);
+			name = "One3-iOSTests";
+			productName = "One3-iOSTests";
+			productReference = 6430488B1E14B9CD0065F6F4 /* One3-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		643048951E14B9CD0065F6F4 /* One3-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 643048A51E14B9CD0065F6F4 /* Build configuration list for PBXNativeTarget "One3-iOSUITests" */;
+			buildPhases = (
+				643048921E14B9CD0065F6F4 /* Sources */,
+				643048931E14B9CD0065F6F4 /* Frameworks */,
+				643048941E14B9CD0065F6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				643048981E14B9CD0065F6F4 /* PBXTargetDependency */,
+			);
+			name = "One3-iOSUITests";
+			productName = "One3-iOSUITests";
+			productReference = 643048961E14B9CD0065F6F4 /* One3-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6430486F1E14B9CD0065F6F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Binboy;
+				TargetAttributes = {
+					643048761E14B9CD0065F6F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9SN638XV89;
+						ProvisioningStyle = Automatic;
+					};
+					6430488A1E14B9CD0065F6F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9SN638XV89;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 643048761E14B9CD0065F6F4;
+					};
+					643048951E14B9CD0065F6F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9SN638XV89;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 643048761E14B9CD0065F6F4;
+					};
+				};
+			};
+			buildConfigurationList = 643048721E14B9CD0065F6F4 /* Build configuration list for PBXProject "One3-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6430486E1E14B9CD0065F6F4;
+			productRefGroup = 643048781E14B9CD0065F6F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				643048761E14B9CD0065F6F4 /* One3-iOS */,
+				6430488A1E14B9CD0065F6F4 /* One3-iOSTests */,
+				643048951E14B9CD0065F6F4 /* One3-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		643048751E14B9CD0065F6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643048851E14B9CD0065F6F4 /* LaunchScreen.storyboard in Resources */,
+				643048821E14B9CD0065F6F4 /* Assets.xcassets in Resources */,
+				643048801E14B9CD0065F6F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643048891E14B9CD0065F6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643048941E14B9CD0065F6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A1BB3AF44842CEC7B72007AD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-One3-iOS/Pods-One3-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF6556132002D014A1FF0F60 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-One3-iOS/Pods-One3-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB829866EBF5072D94E6EBAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		643048731E14B9CD0065F6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6430487D1E14B9CD0065F6F4 /* ViewController.swift in Sources */,
+				6430487B1E14B9CD0065F6F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643048871E14B9CD0065F6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				643048901E14B9CD0065F6F4 /* One3_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		643048921E14B9CD0065F6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6430489B1E14B9CD0065F6F4 /* One3_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6430488D1E14B9CD0065F6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 643048761E14B9CD0065F6F4 /* One3-iOS */;
+			targetProxy = 6430488C1E14B9CD0065F6F4 /* PBXContainerItemProxy */;
+		};
+		643048981E14B9CD0065F6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 643048761E14B9CD0065F6F4 /* One3-iOS */;
+			targetProxy = 643048971E14B9CD0065F6F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6430487E1E14B9CD0065F6F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6430487F1E14B9CD0065F6F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		643048831E14B9CD0065F6F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				643048841E14B9CD0065F6F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6430489D1E14B9CD0065F6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6430489E1E14B9CD0065F6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		643048A01E14B9CD0065F6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588B25A69F4535383312CF72 /* Pods-One3-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9SN638XV89;
+				INFOPLIST_FILE = "One3-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "top.binboy.One3-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		643048A11E14B9CD0065F6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 523D0D5717677BF61E2E6542 /* Pods-One3-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9SN638XV89;
+				INFOPLIST_FILE = "One3-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "top.binboy.One3-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		643048A31E14B9CD0065F6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9SN638XV89;
+				INFOPLIST_FILE = "One3-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "top.binboy.One3-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/One3-iOS.app/One3-iOS";
+			};
+			name = Debug;
+		};
+		643048A41E14B9CD0065F6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9SN638XV89;
+				INFOPLIST_FILE = "One3-iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "top.binboy.One3-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/One3-iOS.app/One3-iOS";
+			};
+			name = Release;
+		};
+		643048A61E14B9CD0065F6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9SN638XV89;
+				INFOPLIST_FILE = "One3-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "top.binboy.One3-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "One3-iOS";
+			};
+			name = Debug;
+		};
+		643048A71E14B9CD0065F6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9SN638XV89;
+				INFOPLIST_FILE = "One3-iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "top.binboy.One3-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "One3-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		643048721E14B9CD0065F6F4 /* Build configuration list for PBXProject "One3-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6430489D1E14B9CD0065F6F4 /* Debug */,
+				6430489E1E14B9CD0065F6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6430489F1E14B9CD0065F6F4 /* Build configuration list for PBXNativeTarget "One3-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643048A01E14B9CD0065F6F4 /* Debug */,
+				643048A11E14B9CD0065F6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643048A21E14B9CD0065F6F4 /* Build configuration list for PBXNativeTarget "One3-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643048A31E14B9CD0065F6F4 /* Debug */,
+				643048A41E14B9CD0065F6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		643048A51E14B9CD0065F6F4 /* Build configuration list for PBXNativeTarget "One3-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				643048A61E14B9CD0065F6F4 /* Debug */,
+				643048A71E14B9CD0065F6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6430486F1E14B9CD0065F6F4 /* Project object */;
+}
