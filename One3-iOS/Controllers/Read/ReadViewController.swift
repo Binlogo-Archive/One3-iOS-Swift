@@ -9,27 +9,39 @@
 import UIKit
 
 class ReadViewController: BaseViewController {
-
+    
+    var readObject = ""
+    
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        setupUI()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func setupUI() {
+        
+        tableView.layer.masksToBounds = false;
+        tableView.layer.shadowColor = UIColor(hex: 0x666666).cgColor
+        tableView.layer.shadowRadius = 2;
+        tableView.layer.shadowOffset = CGSize.zero;
+        tableView.layer.shadowOpacity = 0.5;
+        tableView.layer.cornerRadius = 5;
+
+    }
+
+}
+
+extension ReadViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 3
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ReadIntroCellIdentifier")
+        cell?.textLabel?.text = "复杂世界，一个就够了"
+        return cell!
     }
-    */
-
 }
