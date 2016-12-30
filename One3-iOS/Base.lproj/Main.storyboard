@@ -33,9 +33,9 @@
         <scene sceneID="Agc-X1-pWB">
             <objects>
                 <navigationController title="首页" automaticallyAdjustsScrollViewInsets="NO" id="dF1-mh-0Pn" customClass="BaseNavigationController" customModule="One3_iOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="首页" id="GyF-bo-yQ0"/>
+                    <tabBarItem key="tabBarItem" title="首页" image="tab_home_normal" selectedImage="tab_home_selected" id="GyF-bo-yQ0"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Pq7-W0-pSw">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Pq7-W0-pSw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -52,9 +52,9 @@
         <scene sceneID="vCz-yB-2Uw">
             <objects>
                 <navigationController title="阅读" automaticallyAdjustsScrollViewInsets="NO" id="Mrh-SS-gTt" customClass="BaseNavigationController" customModule="One3_iOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="阅读" id="FC4-BT-TdW"/>
+                    <tabBarItem key="tabBarItem" title="阅读" image="tab_read_normal" selectedImage="tab_read_selected" id="FC4-BT-TdW"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ESf-ri-KWl">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ESf-ri-KWl">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -71,9 +71,9 @@
         <scene sceneID="JQY-Jd-Smv">
             <objects>
                 <navigationController title="音乐" automaticallyAdjustsScrollViewInsets="NO" id="01w-UC-cdL" customClass="BaseNavigationController" customModule="One3_iOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="音乐" id="gbI-JG-lZR"/>
+                    <tabBarItem key="tabBarItem" title="音乐" image="tab_music_normal" selectedImage="tab_music_selected" id="gbI-JG-lZR"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ub6-gk-zrj">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ub6-gk-zrj">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -90,9 +90,9 @@
         <scene sceneID="y3F-tT-YfU">
             <objects>
                 <navigationController title="电影" automaticallyAdjustsScrollViewInsets="NO" id="TAu-kC-uwX" customClass="BaseNavigationController" customModule="One3_iOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="电影" id="tG9-rX-ynW"/>
+                    <tabBarItem key="tabBarItem" title="电影" image="tab_movie_normal" selectedImage="tab_movie_selected" id="tG9-rX-ynW"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sxQ-jV-ZVm">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="sxQ-jV-ZVm">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -146,4 +146,14 @@
             <point key="canvasLocation" x="1808" y="2110"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tab_home_normal" width="44" height="44"/>
+        <image name="tab_home_selected" width="44" height="44"/>
+        <image name="tab_movie_normal" width="44" height="44"/>
+        <image name="tab_movie_selected" width="44" height="44"/>
+        <image name="tab_music_normal" width="44" height="44"/>
+        <image name="tab_music_selected" width="44" height="44"/>
+        <image name="tab_read_normal" width="44" height="44"/>
+        <image name="tab_read_selected" width="44" height="44"/>
+    </resources>
 </document>

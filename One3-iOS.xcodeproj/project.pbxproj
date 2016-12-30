@@ -19,7 +19,7 @@
 		643048B51E14E44E0065F6F4 /* Music.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643048B41E14E44E0065F6F4 /* Music.storyboard */; };
 		643048B71E14E4870065F6F4 /* Movie.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 643048B61E14E4870065F6F4 /* Movie.storyboard */; };
 		643048BD1E14E7C70065F6F4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643048BC1E14E7C70065F6F4 /* BaseViewController.swift */; };
-		643048BF1E14E7E70065F6F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643048BE1E14E7E70065F6F4 /* HomeViewController.swift */; };
+		643048BF1E14E7E70065F6F4 /* HomeRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643048BE1E14E7E70065F6F4 /* HomeRootViewController.swift */; };
 		643048C11E14E7F20065F6F4 /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643048C01E14E7F20065F6F4 /* ReadViewController.swift */; };
 		643048C31E14E7FD0065F6F4 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643048C21E14E7FC0065F6F4 /* MusicViewController.swift */; };
 		643048C51E14E80B0065F6F4 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643048C41E14E80B0065F6F4 /* MovieViewController.swift */; };
@@ -87,6 +87,8 @@
 		6430494D1E14EC680065F6F4 /* music_cover.png in Resources */ = {isa = PBXBuildFile; fileRef = 643049331E14EC670065F6F4 /* music_cover.png */; };
 		6430494E1E14EC680065F6F4 /* music_cover_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 643049341E14EC670065F6F4 /* music_cover_small.png */; };
 		6430494F1E14EC680065F6F4 /* personalBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 643049361E14EC670065F6F4 /* personalBackgroundImage.png */; };
+		643049731E14F61C0065F6F4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643049721E14F61C0065F6F4 /* HomeViewController.swift */; };
+		643049751E14F6E20065F6F4 /* HomeModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643049741E14F6E20065F6F4 /* HomeModelController.swift */; };
 		94687281B2363A8FD056A9DE /* Pods_One3_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5985DF127C37150C94E147FC /* Pods_One3_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -129,7 +131,7 @@
 		643048B41E14E44E0065F6F4 /* Music.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Music.storyboard; sourceTree = "<group>"; };
 		643048B61E14E4870065F6F4 /* Movie.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Movie.storyboard; sourceTree = "<group>"; };
 		643048BC1E14E7C70065F6F4 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
-		643048BE1E14E7E70065F6F4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		643048BE1E14E7E70065F6F4 /* HomeRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRootViewController.swift; sourceTree = "<group>"; };
 		643048C01E14E7F20065F6F4 /* ReadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
 		643048C21E14E7FC0065F6F4 /* MusicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		643048C41E14E80B0065F6F4 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
@@ -197,6 +199,8 @@
 		643049331E14EC670065F6F4 /* music_cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_cover.png; sourceTree = "<group>"; };
 		643049341E14EC670065F6F4 /* music_cover_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_cover_small.png; sourceTree = "<group>"; };
 		643049361E14EC670065F6F4 /* personalBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = personalBackgroundImage.png; sourceTree = "<group>"; };
+		643049721E14F61C0065F6F4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		643049741E14F6E20065F6F4 /* HomeModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModelController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -386,7 +390,9 @@
 		643048BB1E14E78F0065F6F4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				643048BE1E14E7E70065F6F4 /* HomeViewController.swift */,
+				643048BE1E14E7E70065F6F4 /* HomeRootViewController.swift */,
+				643049721E14F61C0065F6F4 /* HomeViewController.swift */,
+				643049741E14F6E20065F6F4 /* HomeModelController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -764,6 +770,7 @@
 				643049051E14E98E0065F6F4 /* UIColorExtensions.swift in Sources */,
 				643049011E14E98E0065F6F4 /* UIAlertControllerExtensions.swift in Sources */,
 				643048F41E14E98E0065F6F4 /* CollectionExtensions.swift in Sources */,
+				643049731E14F61C0065F6F4 /* HomeViewController.swift in Sources */,
 				643048FE1E14E98E0065F6F4 /* CGPointExtensions.swift in Sources */,
 				643049081E14E98E0065F6F4 /* UILabelExtensions.swift in Sources */,
 				643048F21E14E98E0065F6F4 /* BoolExtensions.swift in Sources */,
@@ -778,6 +785,7 @@
 				643048FB1E14E98E0065F6F4 /* StringExtensions.swift in Sources */,
 				6430490C1E14E98E0065F6F4 /* UISearchBarExtensions.swift in Sources */,
 				6430490B1E14E98E0065F6F4 /* UINavigationItemExtensions.swift in Sources */,
+				643049751E14F6E20065F6F4 /* HomeModelController.swift in Sources */,
 				643048C71E14E8310065F6F4 /* Config.swift in Sources */,
 				643048F71E14E98E0065F6F4 /* DictionaryExtensions.swift in Sources */,
 				643049091E14E98E0065F6F4 /* UINavigationBarExtensions.swift in Sources */,
@@ -785,7 +793,7 @@
 				643048F61E14E98E0065F6F4 /* DateExtensions.swift in Sources */,
 				643049121E14E98E0065F6F4 /* UITextFieldExtensions.swift in Sources */,
 				643048F51E14E98E0065F6F4 /* DataExtensions.swift in Sources */,
-				643048BF1E14E7E70065F6F4 /* HomeViewController.swift in Sources */,
+				643048BF1E14E7E70065F6F4 /* HomeRootViewController.swift in Sources */,
 				643048FD1E14E98E0065F6F4 /* CGFloatExtensions.swift in Sources */,
 				643048FF1E14E98E0065F6F4 /* CGSizeExtensions.swift in Sources */,
 				643048C11E14E7F20065F6F4 /* ReadViewController.swift in Sources */,
