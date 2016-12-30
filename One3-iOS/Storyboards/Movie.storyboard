@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,7 +11,7 @@
         <!--电影-->
         <scene sceneID="O8h-3n-z9N">
             <objects>
-                <viewController id="GTZ-Ka-Eo0" sceneMemberID="viewController">
+                <viewController id="GTZ-Ka-Eo0" customClass="MovieViewController" customModule="One3_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2rR-sr-U8R"/>
                         <viewControllerLayoutGuide type="bottom" id="f6N-EH-zIt"/>

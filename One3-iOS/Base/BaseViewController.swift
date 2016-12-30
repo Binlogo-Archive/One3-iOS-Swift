@@ -13,23 +13,24 @@ class BaseViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        setupNavigationBarLeftItemSearch()
+        setupNavigationBarRightItemMe()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func setupNavigationBarLeftItemSearch() {
+        self.navigationItem.leftBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "icon_search"), style: .plain, target: self, action: #selector(BaseViewController.showSearchViewController))
     }
-    */
+
+    func setupNavigationBarRightItemMe() {
+        self.navigationItem.rightBarButtonItem = UIBarButtonItem(image: #imageLiteral(resourceName: "nav_me_normal"), style: .plain, target: self, action: #selector(BaseViewController.pushMeViewController))
+    }
+    
+    func showSearchViewController() {
+        
+    }
+    
+    func pushMeViewController() {
+        
+    }
 
 }

@@ -6,8 +6,19 @@
 //  Copyright © 2016年 Binboy. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct Config {
     
+}
+
+extension UIColor {
+    
+    static var navigationBarTitleTextColor: UIColor {
+        return UIColor(red: 78 / 255.0, green: 92 / 255.0, blue: 108 / 255.0, alpha: 1)
+    }
+    
+    static var navigationBarTintColor: UIColor {
+        return UIColor(white: 198 / 255.0, alpha: 1)
+    }
 }

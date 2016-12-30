@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,7 +11,7 @@
         <!--音乐-->
         <scene sceneID="d6b-rf-F98">
             <objects>
-                <viewController id="0An-zK-gph" sceneMemberID="viewController">
+                <viewController id="0An-zK-gph" customClass="MusicViewController" customModule="One3_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="e5W-0P-bcq"/>
                         <viewControllerLayoutGuide type="bottom" id="C4i-29-v0o"/>
