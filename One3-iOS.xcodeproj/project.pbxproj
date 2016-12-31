@@ -10,6 +10,7 @@
 		640710011E166C30007F0937 /* ReadRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640710001E166C30007F0937 /* ReadRootViewController.swift */; };
 		640710031E166C97007F0937 /* ReadModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640710021E166C97007F0937 /* ReadModelController.swift */; };
 		640710061E1676CD007F0937 /* CycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640710051E1676CD007F0937 /* CycleScrollView.swift */; };
+		640710081E16922B007F0937 /* CycleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640710071E16922B007F0937 /* CycleCollectionViewCell.swift */; };
 		6430487B1E14B9CD0065F6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430487A1E14B9CD0065F6F4 /* AppDelegate.swift */; };
 		643048801E14B9CD0065F6F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6430487E1E14B9CD0065F6F4 /* Main.storyboard */; };
 		643048821E14B9CD0065F6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643048811E14B9CD0065F6F4 /* Assets.xcassets */; };
@@ -119,6 +120,7 @@
 		640710001E166C30007F0937 /* ReadRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadRootViewController.swift; sourceTree = "<group>"; };
 		640710021E166C97007F0937 /* ReadModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadModelController.swift; sourceTree = "<group>"; };
 		640710051E1676CD007F0937 /* CycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleScrollView.swift; sourceTree = "<group>"; };
+		640710071E16922B007F0937 /* CycleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleCollectionViewCell.swift; sourceTree = "<group>"; };
 		643048771E14B9CD0065F6F4 /* One3-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One3-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6430487A1E14B9CD0065F6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6430487F1E14B9CD0065F6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				640710051E1676CD007F0937 /* CycleScrollView.swift */,
+				640710071E16922B007F0937 /* CycleCollectionViewCell.swift */,
 			);
 			path = ScrollView;
 			sourceTree = "<group>";
@@ -795,6 +798,7 @@
 				643048F21E14E98E0065F6F4 /* BoolExtensions.swift in Sources */,
 				643049111E14E98E0065F6F4 /* UITableViewExtensions.swift in Sources */,
 				643049141E14E98E0065F6F4 /* UIViewControllerExtensions.swift in Sources */,
+				640710081E16922B007F0937 /* CycleCollectionViewCell.swift in Sources */,
 				643048FC1E14E98E0065F6F4 /* SwifterSwift.swift in Sources */,
 				640710031E166C97007F0937 /* ReadModelController.swift in Sources */,
 				643049031E14E98E0065F6F4 /* UIButtonExtensions.swift in Sources */,

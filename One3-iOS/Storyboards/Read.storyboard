@@ -11,7 +11,7 @@
         <!--阅读-->
         <scene sceneID="f8y-id-4t7">
             <objects>
-                <viewController storyboardIdentifier="ReadRootViewController" id="Vur-vo-8h9" customClass="ReadRootViewController" customModule="One3_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ReadRootViewController" automaticallyAdjustsScrollViewInsets="NO" id="Vur-vo-8h9" customClass="ReadRootViewController" customModule="One3_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mVX-pb-5if"/>
                         <viewControllerLayoutGuide type="bottom" id="Tkn-zp-N73"/>
