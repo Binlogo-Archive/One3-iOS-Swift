@@ -11,6 +11,12 @@
 		640710031E166C97007F0937 /* ReadModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640710021E166C97007F0937 /* ReadModelController.swift */; };
 		640710061E1676CD007F0937 /* CycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640710051E1676CD007F0937 /* CycleScrollView.swift */; };
 		640710081E16922B007F0937 /* CycleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640710071E16922B007F0937 /* CycleCollectionViewCell.swift */; };
+		6407100B1E17996D007F0937 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6407100A1E17996D007F0937 /* SearchViewController.swift */; };
+		640710141E1A2E49007F0937 /* SearchPictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640710131E1A2E49007F0937 /* SearchPictureCell.swift */; };
+		640710161E1A2E76007F0937 /* SearchReadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640710151E1A2E76007F0937 /* SearchReadCell.swift */; };
+		640710181E1A2E93007F0937 /* SearchMusicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640710171E1A2E93007F0937 /* SearchMusicCell.swift */; };
+		6407101A1E1A2EAB007F0937 /* SearchMovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 640710191E1A2EAB007F0937 /* SearchMovieCell.swift */; };
+		6407101C1E1A2EC6007F0937 /* SearchAuthorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6407101B1E1A2EC6007F0937 /* SearchAuthorCell.swift */; };
 		6430487B1E14B9CD0065F6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6430487A1E14B9CD0065F6F4 /* AppDelegate.swift */; };
 		643048801E14B9CD0065F6F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6430487E1E14B9CD0065F6F4 /* Main.storyboard */; };
 		643048821E14B9CD0065F6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 643048811E14B9CD0065F6F4 /* Assets.xcassets */; };
@@ -121,6 +127,12 @@
 		640710021E166C97007F0937 /* ReadModelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadModelController.swift; sourceTree = "<group>"; };
 		640710051E1676CD007F0937 /* CycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleScrollView.swift; sourceTree = "<group>"; };
 		640710071E16922B007F0937 /* CycleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CycleCollectionViewCell.swift; sourceTree = "<group>"; };
+		6407100A1E17996D007F0937 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		640710131E1A2E49007F0937 /* SearchPictureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPictureCell.swift; sourceTree = "<group>"; };
+		640710151E1A2E76007F0937 /* SearchReadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchReadCell.swift; sourceTree = "<group>"; };
+		640710171E1A2E93007F0937 /* SearchMusicCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMusicCell.swift; sourceTree = "<group>"; };
+		640710191E1A2EAB007F0937 /* SearchMovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMovieCell.swift; sourceTree = "<group>"; };
+		6407101B1E1A2EC6007F0937 /* SearchAuthorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchAuthorCell.swift; sourceTree = "<group>"; };
 		643048771E14B9CD0065F6F4 /* One3-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One3-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6430487A1E14B9CD0065F6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6430487F1E14B9CD0065F6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -254,6 +266,34 @@
 			path = ScrollView;
 			sourceTree = "<group>";
 		};
+		640710091E179950007F0937 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				6407100A1E17996D007F0937 /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		640710111E1A2D69007F0937 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				640710121E1A2D69007F0937 /* Search */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		640710121E1A2D69007F0937 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				640710131E1A2E49007F0937 /* SearchPictureCell.swift */,
+				640710151E1A2E76007F0937 /* SearchReadCell.swift */,
+				640710171E1A2E93007F0937 /* SearchMusicCell.swift */,
+				640710191E1A2EAB007F0937 /* SearchMovieCell.swift */,
+				6407101B1E1A2EC6007F0937 /* SearchAuthorCell.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
 		6430486E1E14B9CD0065F6F4 = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +356,7 @@
 		643048A81E14E0A00065F6F4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				640710111E1A2D69007F0937 /* Cells */,
 				640710041E167690007F0937 /* ScrollView */,
 			);
 			path = Views;
@@ -343,6 +384,7 @@
 		643048AB1E14E0A00065F6F4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				640710091E179950007F0937 /* Search */,
 				643048C81E14E8C10065F6F4 /* TabBar */,
 				643048BB1E14E78F0065F6F4 /* Home */,
 				643048BA1E14E78F0065F6F4 /* Read */,
@@ -773,6 +815,7 @@
 			files = (
 				6430490A1E14E98E0065F6F4 /* UINavigationControllerExtensions.swift in Sources */,
 				643049041E14E98E0065F6F4 /* UICollectionViewExtensions.swift in Sources */,
+				640710141E1A2E49007F0937 /* SearchPictureCell.swift in Sources */,
 				643048C31E14E7FD0065F6F4 /* MusicViewController.swift in Sources */,
 				643049071E14E98E0065F6F4 /* UIImageViewExtensions.swift in Sources */,
 				643049151E14E98E0065F6F4 /* UIViewExtensions.swift in Sources */,
@@ -781,6 +824,7 @@
 				643048FA1E14E98E0065F6F4 /* IntExtensions.swift in Sources */,
 				640710011E166C30007F0937 /* ReadRootViewController.swift in Sources */,
 				643048C51E14E80B0065F6F4 /* MovieViewController.swift in Sources */,
+				6407101A1E1A2EAB007F0937 /* SearchMovieCell.swift in Sources */,
 				6430490D1E14E98E0065F6F4 /* UISegmentedControlExtensions.swift in Sources */,
 				640710061E1676CD007F0937 /* CycleScrollView.swift in Sources */,
 				643048AF1E14E1400065F6F4 /* BaseNavigationController.swift in Sources */,
@@ -798,6 +842,7 @@
 				643048F21E14E98E0065F6F4 /* BoolExtensions.swift in Sources */,
 				643049111E14E98E0065F6F4 /* UITableViewExtensions.swift in Sources */,
 				643049141E14E98E0065F6F4 /* UIViewControllerExtensions.swift in Sources */,
+				640710161E1A2E76007F0937 /* SearchReadCell.swift in Sources */,
 				640710081E16922B007F0937 /* CycleCollectionViewCell.swift in Sources */,
 				643048FC1E14E98E0065F6F4 /* SwifterSwift.swift in Sources */,
 				640710031E166C97007F0937 /* ReadModelController.swift in Sources */,
@@ -806,15 +851,18 @@
 				6430487B1E14B9CD0065F6F4 /* AppDelegate.swift in Sources */,
 				643048BD1E14E7C70065F6F4 /* BaseViewController.swift in Sources */,
 				643049021E14E98E0065F6F4 /* UIBarButtonItemExtensions.swift in Sources */,
+				6407101C1E1A2EC6007F0937 /* SearchAuthorCell.swift in Sources */,
 				643048FB1E14E98E0065F6F4 /* StringExtensions.swift in Sources */,
 				6430490C1E14E98E0065F6F4 /* UISearchBarExtensions.swift in Sources */,
 				6430490B1E14E98E0065F6F4 /* UINavigationItemExtensions.swift in Sources */,
 				643049751E14F6E20065F6F4 /* HomeModelController.swift in Sources */,
+				6407100B1E17996D007F0937 /* SearchViewController.swift in Sources */,
 				643048C71E14E8310065F6F4 /* Config.swift in Sources */,
 				643048F71E14E98E0065F6F4 /* DictionaryExtensions.swift in Sources */,
 				643049091E14E98E0065F6F4 /* UINavigationBarExtensions.swift in Sources */,
 				643048F81E14E98E0065F6F4 /* DoubleExtensions.swift in Sources */,
 				643048F61E14E98E0065F6F4 /* DateExtensions.swift in Sources */,
+				640710181E1A2E93007F0937 /* SearchMusicCell.swift in Sources */,
 				643049121E14E98E0065F6F4 /* UITextFieldExtensions.swift in Sources */,
 				643048F51E14E98E0065F6F4 /* DataExtensions.swift in Sources */,
 				643048BF1E14E7E70065F6F4 /* HomeRootViewController.swift in Sources */,

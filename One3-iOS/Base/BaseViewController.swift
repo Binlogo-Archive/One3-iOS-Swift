@@ -26,7 +26,11 @@ class BaseViewController: UIViewController {
     }
     
     func showSearchViewController() {
-        
+        let searchViewController = SearchViewController()
+        let navigationController = UINavigationController(rootViewController: searchViewController)
+        self.present(navigationController, animated: true) {
+            
+        }
     }
     
     func pushMeViewController() {
