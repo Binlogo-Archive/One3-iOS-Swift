@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="OvQ-iq-sxL">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--One Tab Bar View Controller-->
+        <scene sceneID="dwO-JD-I5d">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="OvQ-iq-sxL" customClass="OneTabBarViewController" customModule="One3_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="lyD-Gs-zU0">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="dF1-mh-0Pn" kind="relationship" relationship="viewControllers" id="M2v-3g-laf"/>
+                        <segue destination="Mrh-SS-gTt" kind="relationship" relationship="viewControllers" id="IKl-WO-Gi9"/>
+                        <segue destination="01w-UC-cdL" kind="relationship" relationship="viewControllers" id="tSi-tY-fbR"/>
+                        <segue destination="TAu-kC-uwX" kind="relationship" relationship="viewControllers" id="Wuc-xt-iAO"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AmC-hp-6V7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="382" y="769"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="Agc-X1-pWB">
+            <objects>
+                <navigationController title="首页" automaticallyAdjustsScrollViewInsets="NO" id="dF1-mh-0Pn" customClass="BaseNavigationController" customModule="One3_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首页" image="tab_home_normal" selectedImage="tab_home_selected" id="GyF-bo-yQ0"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Pq7-W0-pSw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7XL-N3-MKn" kind="relationship" relationship="rootViewController" id="bD3-Bc-KIg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wnD-as-K3V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1070" y="1638"/>
+        </scene>
+        <!--阅读-->
+        <scene sceneID="vCz-yB-2Uw">
+            <objects>
+                <navigationController title="阅读" automaticallyAdjustsScrollViewInsets="NO" id="Mrh-SS-gTt" customClass="BaseNavigationController" customModule="One3_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="阅读" image="tab_read_normal" selectedImage="tab_read_selected" id="FC4-BT-TdW"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ESf-ri-KWl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="UZo-ON-eGg" kind="relationship" relationship="rootViewController" id="0TN-Z7-Ot1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vnQ-br-LHl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-114" y="1638"/>
+        </scene>
+        <!--音乐-->
+        <scene sceneID="JQY-Jd-Smv">
+            <objects>
+                <navigationController title="音乐" automaticallyAdjustsScrollViewInsets="NO" id="01w-UC-cdL" customClass="BaseNavigationController" customModule="One3_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="音乐" image="tab_music_normal" selectedImage="tab_music_selected" id="gbI-JG-lZR"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="ub6-gk-zrj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6ZH-LD-XXW" kind="relationship" relationship="rootViewController" id="50n-4T-wka"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WE9-gG-0Qw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="833" y="1638"/>
+        </scene>
+        <!--电影-->
+        <scene sceneID="y3F-tT-YfU">
+            <objects>
+                <navigationController title="电影" automaticallyAdjustsScrollViewInsets="NO" id="TAu-kC-uwX" customClass="BaseNavigationController" customModule="One3_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="电影" image="tab_movie_normal" selectedImage="tab_movie_selected" id="tG9-rX-ynW"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="sxQ-jV-ZVm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8Fe-Cm-23i" kind="relationship" relationship="rootViewController" id="nK9-QQ-0hh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6aZ-I8-UZk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1810" y="1638"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="aDQ-cL-mXX">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Home" id="7XL-N3-MKn" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="pi8-n0-CWo"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7hl-A5-AmK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1072" y="2112"/>
+        </scene>
+        <!--Read-->
+        <scene sceneID="JqJ-gg-i1A">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Read" id="UZo-ON-eGg" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="rDS-Xl-8gy"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JRw-DO-4I8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-114" y="2111"/>
+        </scene>
+        <!--Music-->
+        <scene sceneID="mux-sN-wcZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Music" id="6ZH-LD-XXW" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="bXc-ym-CjL"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MbM-dZ-XfA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="832" y="2110"/>
+        </scene>
+        <!--Movie-->
+        <scene sceneID="w1m-Qa-euj">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Movie" id="8Fe-Cm-23i" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="6M5-ic-FXd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6ps-pp-udv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1808" y="2110"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab_home_normal" width="44" height="44"/>
+        <image name="tab_home_selected" width="44" height="44"/>
+        <image name="tab_movie_normal" width="44" height="44"/>
+        <image name="tab_movie_selected" width="44" height="44"/>
+        <image name="tab_music_normal" width="44" height="44"/>
+        <image name="tab_music_selected" width="44" height="44"/>
+        <image name="tab_read_normal" width="44" height="44"/>
+        <image name="tab_read_selected" width="44" height="44"/>
+    </resources>
+</document>
